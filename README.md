@@ -1,6 +1,7 @@
 # Gest-o-de-estoque
 Alunas: Isabelly Thaís, Érika Stephanny, Marina
 1. Descrição do Projeto
+   
 Este projeto consiste num sistema de controlo de inventário desenvolvido em Python. O
 software foi estruturado utilizando conceitos de programação funcional e lógica,
 organizando as tarefas em funções independentes que facilitam a manutenção e a leitura do
@@ -21,7 +22,7 @@ Movimentação de Saldo: Registo seguro de entradas e saídas de mercadorias.
 Tratamento de Erros: Proteção do sistema contra inputs inválidos através de try-except.
 
 4. Instruções de Execução
-1. Certifique-se de ter o Python 3 instalado no computador.
-3. Abra o terminal ou prompt de comando na pasta do ficheiro.
-4. Execute o comando: python estoque_final.py
-5. Utilize o menu numerado para navegar pelas funcionalidades.
+Certifique-se de ter o Python 3 instalado no computador.
+Abra o terminal ou prompt de comando na pasta do ficheiro.
+Execute o comando: python estoque_final.py
+Utilize o menu numerado para navegar pelas funcionalidades.
