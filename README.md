@@ -2,7 +2,7 @@
 Alunas: Isabelly Thaís, Érika Stephanny, Marina
 1. Descrição do Projeto
    
-Este projeto consiste num sistema de controlo de inventário desenvolvido em Python. O
+Este projeto consiste num sistema de controle de inventário desenvolvido em Python. O
 software foi estruturado utilizando conceitos de programação funcional e lógica,
 organizando as tarefas em funções independentes que facilitam a manutenção e a leitura do
 código.
