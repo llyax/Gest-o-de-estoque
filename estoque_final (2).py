@@ -118,34 +118,34 @@ while True:
 
     o = int(ler_numero("\nEscolha uma opção: "))
 
-    if o == "1":
+    if o == 1:
         nome = input("Digite o nome do produto: ").strip().title()
         quantidade = ler_numero("Digite a quantidade: ")
         preco = ler_numero("Digite o valor do produto: R$ ")
         categoria = input("Digite a categoria do produto: ").strip().title()
         cadastrar_produto(nome, quantidade, preco, categoria, estoque)
 
-    elif o == "2":
+    elif o == 2:
         consultar_estoque(estoque)
 
-    elif o == "3":
+    elif o == 3:
         print(f"\nPreço total do estoque: R${preco_total(estoque):.2f}")
 
-    elif o == "4":
+    elif o == 4:
         limite = ler_numero("Digite o limite mínimo de quantidade: ")
         estoque_baixo(estoque, limite)
 
-    elif o == "5":
+    elif o == 5:
         nome = input("Digite o nome do produto: ").strip().title()
         quantidade = ler_numero("Digite a quantidade que entrou: ")
         registrar_entrada(nome, quantidade, estoque)
 
-    elif o == "6":
+    elif o == 6:
         nome = input("Digite o nome do produto: ").strip().title()
         quantidade = ler_numero("Digite a quantidade que saiu: ")
         registrar_saida(nome, quantidade, estoque)
 
-    elif o == "7":
+    elif o == 7:
         print("Saindo do estoque...")
         break
 
